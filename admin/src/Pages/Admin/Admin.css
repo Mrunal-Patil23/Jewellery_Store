@@ -1,0 +1,23 @@
+.admin{
+    display: flex;
+}
+.content{
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: white;
+}
+.content h1{
+    color: #626262;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media(max-width:800px){
+    .admin{
+        flex-direction: column;
+    }
+}

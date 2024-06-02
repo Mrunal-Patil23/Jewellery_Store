@@ -1,0 +1,19 @@
+{
+  "name": "jwellery-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend":"cd frontend && npm start",
+    "backend":"cd backend && npm start",
+    "admin":"cd admin && npm run dev",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\" \"npm run admin\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
